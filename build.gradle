@@ -4,9 +4,9 @@ plugins {
     id("org.openjfx.javafxplugin") version("0.0.7")
 }
 
-group("com.aniket.musicplayer")
+group("com.aniket")
 
-version("1.0-SNAPSHOT")
+version("1.0")
 
 repositories {
     mavenCentral()
