@@ -541,7 +541,7 @@ public class Controller {
 
     @FXML
     public void about() {
-        this.popupAlertWindow(Alert.AlertType.INFORMATION, "About", "AR MP3 Player", "Author : Aniket Raj \nCopyright \u00A9 2020");
+        this.popupAlertWindow(Alert.AlertType.INFORMATION, "About", "AR Music Player", "Author : Aniket Raj \nCopyright \u00A9 2020");
     }
 
     @FXML
