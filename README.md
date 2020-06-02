@@ -2,7 +2,7 @@
 A Simple JAVAFX Music Player using javafx media package.
 Builds and runs fine on Windows Platform.
 Running the same project on linux system throws exception.
-Error => "Caused by: com.sun.media.jfxmedia.MediaException: Could not create player!".
+"Caused by: com.sun.media.jfxmedia.MediaException: Could not create player!".
 Program uses simple java io to perform read and write of the playlist.
 Uses XML file ("playlistXMLSource") to read and write the path of the music files and playlist name.
 Program reads XML source file when Controller is initialized. If not found then creates a new one.
