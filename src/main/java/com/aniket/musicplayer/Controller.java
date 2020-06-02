@@ -431,7 +431,7 @@ public class Controller {
     @FXML
     public void importTracks() {
         FileChooser chooser = new FileChooser();
-        chooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("MP3 Files", "*.mp3"));
+        chooser.getExtensionFilters().add(new FileChooser.ExtensionFilter("MP3 Files", "*.mp3","*.wav"));
         List<File> files = chooser.showOpenMultipleDialog(this.mainWindow.getScene().getWindow());
         if (files != null) {
             this.importService.setFiles(files);
