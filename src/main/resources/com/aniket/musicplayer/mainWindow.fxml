@@ -125,7 +125,7 @@
             <Label fx:id="playlistNameLabel" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.halignment="CENTER"
                    textFill="#a30eff" wrapText="true">
                 <padding>
-                    <Insets bottom="20"/>
+                    <Insets bottom="18"/>
                 </padding>
                 <font>
                     <Font name="sans-serif" size="20"/>
